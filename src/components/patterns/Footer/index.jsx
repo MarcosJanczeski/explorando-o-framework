@@ -1,5 +1,5 @@
-import { theme } from '../../../theme/theme';
-import { Box, Text } from '../../../theme/components';
+import { theme } from '../../../styles/theme';
+import { Box, Text } from '../../../styles/components';
 
 export default function Footer() {
   return (
@@ -33,7 +33,7 @@ export default function Footer() {
             color: theme.colors.neutral[400],
           }}
         >
-          © {new Date().getFullYear()} DevSoutinho. Todos os direitos reservados.
+          © {new Date().getFullYear()} CiaSis. Todos os direitos reservados.
         </Text>
       </Box>
     </Box>
