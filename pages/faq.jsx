@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Title from "../src/components/title";
+import Head from "next/head";
 //import { useEffect, useState } from "react";
 
 export const getStaticProps = async () => {
@@ -32,6 +33,9 @@ export default function Faq({ faqs }) {
   }, [])
   */
   return <>
+  <Head>
+    <title>FAQs - EXPLORANDO NEXTJS - ALURA</title>
+  </Head>
     <Title Tag='h1'>FAQ</Title>
     <ul>
       {faqs.map((faq, index) => <li key={index}>
