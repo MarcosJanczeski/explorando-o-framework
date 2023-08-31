@@ -93,7 +93,7 @@ function SideImage() {
   )
 }
 
-export default function HomeScreen() {
+export default function Home() {
   return (
     <Box>
       <Box
@@ -192,7 +192,7 @@ export default function HomeScreen() {
                         },
                       }}
                     >
-                      O que tem de novo?
+                      Em breve - CiaSis...
                     </Text>
                     <Text
                       stylesheet={{
