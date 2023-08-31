@@ -9,7 +9,7 @@ const SIDE_IMAGE_URL = 'https://fakeimg.pl/2878x1640'
 function SideImage() {
   return (
     <Box
-      styleSheet={{
+      stylesheet={{
         paddingHorizontal: {
           md: theme.space.x8,
         },
@@ -22,7 +22,7 @@ function SideImage() {
       }}
     >
       <Box
-        styleSheet={{
+        stylesheet={{
           top: 0,
           bottom: 0,
           right: {
@@ -45,7 +45,7 @@ function SideImage() {
         }}
       >
         <Box
-          styleSheet={{
+          stylesheet={{
             height: {
               lg: theme.space["x1/1"],
             },
@@ -69,7 +69,7 @@ function SideImage() {
           }}
         >
           <Image
-            styleSheet={{
+            stylesheet={{
               boxShadow: `0 5px 16px 0px ${theme.colors.neutral[999]}73`,
               borderRadius: {
                 md: theme.space.x4,
@@ -98,13 +98,13 @@ export default function HomeScreen() {
     <Box>
       <Box
         as="main"
-        styleSheet={{
+        stylesheet={{
           flex: 1,
           backgroundColor: theme.colors.neutral["050"],
         }}
       >
         <Box
-          styleSheet={{
+          stylesheet={{
             overflow: 'hidden',
             position: {
               lg: 'relative',
@@ -120,7 +120,7 @@ export default function HomeScreen() {
           }}
         >
           <Box
-            styleSheet={{
+            stylesheet={{
               marginHorizontal: 'auto',
               paddingHorizontal: {
                 xs: theme.space.x4,
@@ -145,7 +145,7 @@ export default function HomeScreen() {
             <Box>
               <Box>
                 <Image
-                  styleSheet={{
+                  stylesheet={{
                     width: "auto",
                     height: theme.space.x11,
                   }}
@@ -154,7 +154,7 @@ export default function HomeScreen() {
                 />
               </Box>
               <Box
-                styleSheet={{
+                stylesheet={{
                   marginTop: {
                     xs: theme.space.x16,
                     sm: theme.space.x20,
@@ -164,7 +164,7 @@ export default function HomeScreen() {
                 <Box>
                   <Link
                     href="/faq"
-                    styleSheet={{
+                    stylesheet={{
                       display: "inline-flex",
                       alignItems: {
                         xs: "flex-start",
@@ -177,7 +177,7 @@ export default function HomeScreen() {
                     }}
                   >
                     <Text
-                      styleSheet={{
+                      stylesheet={{
                         textVariant: theme.typography.variants.body4,
                         fontWeight: "600",
                         borderRadius: theme.space.x64,
@@ -195,7 +195,7 @@ export default function HomeScreen() {
                       O que tem de novo?
                     </Text>
                     <Text
-                      styleSheet={{
+                      stylesheet={{
                         textVariant: theme.typography.variants.body4,
                         fontWeight: "600",
                         display: 'inline-flex',
@@ -206,7 +206,7 @@ export default function HomeScreen() {
                     >
                       <Text>Confira as principais dúvidas</Text>
                       <Icon
-                        styleSheet={{
+                        stylesheet={{
                           iconVariant: 'chevronRight',
                           marginLeft: theme.space.xpx,
                         }}
@@ -216,14 +216,14 @@ export default function HomeScreen() {
                   </Link>
                 </Box>
                 <Box
-                  styleSheet={{
+                  stylesheet={{
                     marginTop: theme.space.x6,
                     maxWidth: theme.space.xcontainer_sm,
                   }}
                 >
                   <Text
                     as="h1"
-                    styleSheet={{
+                    stylesheet={{
                       textVariant: theme.typography.variants.heading1,
                       color: theme.colors.neutral["900"],
                     }}
@@ -232,7 +232,7 @@ export default function HomeScreen() {
                   </Text>
                   <Text
                     as="p"
-                    styleSheet={{
+                    stylesheet={{
                       textVariant: theme.typography.variants.body1,
                       color: theme.colors.neutral["500"],
                       marginTop: theme.space.x6,
@@ -242,7 +242,7 @@ export default function HomeScreen() {
                   </Text>
                   <Text
                     as="p"
-                    styleSheet={{
+                    stylesheet={{
                       textVariant: theme.typography.variants.body1,
                       color: theme.colors.neutral["500"],
                       marginTop: theme.space.x6,
@@ -254,7 +254,7 @@ export default function HomeScreen() {
                 <Box
                   as="form"
                   action="#"
-                  styleSheet={{
+                  stylesheet={{
                     display: {
                       sm: 'flex',
                     },
@@ -268,7 +268,7 @@ export default function HomeScreen() {
                   }}
                 >
                   <Box
-                    styleSheet={{
+                    stylesheet={{
                       minWidth: 0,
                       flex: 1,
                     }}
@@ -276,7 +276,7 @@ export default function HomeScreen() {
                     <Text
                       as="label"
                       htmlFor="email"
-                      styleSheet={{
+                      stylesheet={{
                         srOnly: true,
                       }}
                     >
@@ -289,7 +289,7 @@ export default function HomeScreen() {
                     />
                   </Box>
                   <Box
-                    styleSheet={{
+                    stylesheet={{
                       marginTop: {
                         xs: theme.space.x4,
                         sm: theme.space.x0,
